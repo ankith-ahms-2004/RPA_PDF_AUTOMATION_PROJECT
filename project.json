@@ -1,20 +1,20 @@
 {
-  "name": "Extract data from PDF",
-  "projectId": "8031e462-43c5-4a1c-8b61-6a9bfd2be1e6",
+  "name": "RPA_Eclipse__Multiple_PDF_Data_Extraction_Project",
+  "projectId": "5721c081-0521-4f0b-8cdf-6aefd14c50cd",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.16.1]",
-    "UiPath.Mail.Activities": "[1.18.2]",
-    "UiPath.PDF.Activities": "[3.14.1]",
-    "UiPath.System.Activities": "[22.10.4]",
-    "UiPath.Testing.Activities": "[22.10.2]",
-    "UiPath.UIAutomation.Activities": "[22.10.2]"
+    "InternalLabs.TaxonomyCreator.Activities": "[1.0.1]",
+    "UiPath.IntelligentOCR.Activities": "[6.24.0-preview]",
+    "UiPath.OCR.Activities": "[3.22.0-preview]",
+    "UiPath.OmniPage.Activities": "[1.21.0-preview]",
+    "UiPath.PDF.Activities": "[3.22.1-preview]",
+    "UiPath.System.Activities": "[25.2.2]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.12.0.0",
+  "studioVersion": "25.0.161.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -51,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "cadab15d-e8d1-47a9-a6c6-378d98cfda8d",
+      "uniqueId": "c05b4ce1-a76a-4504-9d97-7803928bf1e9",
       "input": [],
       "output": []
     }
